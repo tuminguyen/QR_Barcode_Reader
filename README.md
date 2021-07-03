@@ -1,5 +1,6 @@
 # QR Code reader
----
+
+
 This repo using pyzbar library with opencv to read QR and bar code. There are 2 modes:
 - stream: real time detect via video
 - image: detect on an input image
