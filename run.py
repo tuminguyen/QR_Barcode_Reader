@@ -55,6 +55,7 @@ if __name__ == '__main__':
         for message in decode(img):
             # get message content
             content = message.data.decode('utf8')
+            print(content)
             # draw bounding box (note: the color is BGR not RGB)
             rect = message.rect  # tuple(left, top, width, height)
             cv2.rectangle(img, (rect[0], rect[1]), (rect[0] + rect[2], rect[1] + rect[3]), (219, 252, 3), 6)
