@@ -1,9 +1,11 @@
 # QR Code reader
 
 
-This repo using pyzbar library with opencv to read QR and bar code. There are 2 modes:
-- stream: real time detect via video
-- image: detect on an input image
+This repo using pyzbar library with opencv to read both QR and barcode. However, if you only want to read QRCode, you can simply use the built-in function in openCV _(QRCodeDetector)_. 
+
+There are 2 modes in the project:
+- __stream:__ real time detect via video
+- __image:__ detect on an input image
 
 Detected code will be displayed with a message (text) over the bounding box.
 
@@ -11,7 +13,6 @@ Detected code will be displayed with a message (text) over the bounding box.
   <img src="images/demo_bar.png" width="385" height=253  hspace="8"/>
   <img src="images/demo_qr.png" width="385" /> 
 </p>
-
 
 ## Environment
 - Ubuntu 20.04 _(runnable on Raspberry Pi)_
