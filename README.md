@@ -55,5 +55,3 @@ _Stream video_
 ```
 python run.py -m stream
 ```
-
-**NOTES:** If you run this on raspberry Pi, try to look at Picamera module instead of openCV. It may bring a better performance.
